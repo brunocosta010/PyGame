@@ -20,7 +20,7 @@ class Menu:
         pygame.mixer_music.load('./asset/Menu.wav')
         pygame.mixer_music.play(-1)
         while True:
-            # draw images
+            # Draw images
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Ninja", COLOR_RED, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Revenge", COLOR_RED, ((WIN_WIDTH / 2), 120))
