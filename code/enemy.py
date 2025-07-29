@@ -10,6 +10,5 @@ class Enemy(Entity):
 
         def move(self, ):
             self.rect.centerx -= ENTITY_SPEED[self.name]  # Velocidade (Deixar assim para ficar estático: self.rect.centerx -= 1)
-            if self.rect.right <= 0:
-                self.rect.left = WIN_WIDTH
+
 
